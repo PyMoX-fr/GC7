@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.4 (2025-08-03)
+
+### Bug Fixes
+
+- Set local dev for tokens()
+  ([`3183e15`](https://github.com/PyMoX-fr/GC7/commit/3183e15b25687c51da31870827091a5e81f756ff))
+
+
 ## v1.0.3 (2025-08-03)
 
 
