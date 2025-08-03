@@ -1,3 +1,6 @@
+import greetings as gt
+
+
 def tokens():
     from setuptools_scm import get_version
 
@@ -17,4 +20,5 @@ def tokens():
 
 
 if __name__ == "__main__":
-    print(hello())
+    tokens()
+    print(gt.hello(), "\n" + gt.bye())

@@ -16,6 +16,8 @@ classifiers = [
 dependencies = [
   # Ajoute ici tes dépendances, ex:
   # "requests >=2.0.0"
+  "python-dotenv",
+  "setuptools_scm"
 ]
 requires-python = ">=3.10"
 
