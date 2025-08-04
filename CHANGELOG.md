@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.6 (2025-08-04)
+
+### Bug Fixes
+
+- Try 1.0.6
+  ([`2738278`](https://github.com/PyMoX-fr/GC7/commit/2738278da8c7c33dac1ada54b33dafb04ca4a859))
+
+
 ## v1.0.5 (2025-08-03)
 
 ### Bug Fixes
