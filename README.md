@@ -2,7 +2,7 @@
 
 Trousse à outils utiles pour devs en PyMoX
 
-v1.05 2ème
+v1.06 2ème
 
 ---
 
