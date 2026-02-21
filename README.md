@@ -83,3 +83,12 @@ if __name__ == "__main__":
     print(gt.hello(), "\n" + gt.bye())
 
 ```
+## 📦 Règles de versionnement (semantic‑release)
+
+Semantic‑release détermine automatiquement le numéro de version en fonction du type de commit :
+
+| Type de commit                         | Effet sur la version | Exemple de résultat |
+|----------------------------------------|----------------------|---------------------|
+| `fix:`                                 | patch                | `0.0.7 → 0.0.8`     |
+| `feat:`                                | minor                | `0.0.7 → 0.1.0`     |
+| `BREAKING CHANGE:` ou `feat!` / `fix!` | major                | `0.0.7 → 1.0.0`     |
