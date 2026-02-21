@@ -3,7 +3,7 @@ def hello():
 
 
 def bye():
-    return f"Bye-bye les gens 123 !"
+    return f"Bye-bye les gens !"
 
 
 if __name__ == "__main__":
