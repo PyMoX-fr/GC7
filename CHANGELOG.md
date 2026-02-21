@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.0 (2026-02-21)
+
+### Features
+
+- Rappel semantic prefix
+  ([`fa16eed`](https://github.com/PyMoX-fr/GC7/commit/fa16eed6f5825244b002125e39940c28692f7cb8))
+
+
 ## v1.0.6 (2025-08-04)
 
 ### Bug Fixes
