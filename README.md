@@ -92,3 +92,7 @@ Semantic‑release détermine automatiquement le numéro de version en fonction 
 | `fix:`                                 | patch                | `0.0.7 → 0.0.8`     |
 | `feat:`                                | minor                | `0.0.7 → 0.1.0`     |
 | `BREAKING CHANGE:` ou `feat!` / `fix!` | major                | `0.0.7 → 1.0.0`     |
+
+---
+
+Vérifier les secrets dans .env
