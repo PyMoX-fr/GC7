@@ -6,7 +6,7 @@ Trousse à outils utiles pour devs en PyMoX
 
 ---
 
-try minor
+try major
 
 ---
 
