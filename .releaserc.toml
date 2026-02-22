@@ -14,3 +14,4 @@ pypi_token = "env:PYPI_TOKEN"
 
 branch = "main"
 log_level = "DEBUG"
+verify_release_commit = true
