@@ -1,4 +1,4 @@
-# PyMoX - GC7
+# PyMoX-Tools (Public)
 
 Trousse à outils utiles pour devs en PyMoX
 
