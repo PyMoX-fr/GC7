@@ -2,6 +2,22 @@
 
 <!-- version list -->
 
+## v1.2.13 (2026-02-22)
+
+### Bug Fixes
+
+- 12 ou 13 ?
+  ([`55c3be6`](https://github.com/PyMoX-fr/GC7/commit/55c3be6d3e7e0e791ec44b820ca45fd26c2615e9))
+
+- 13 !!!
+  ([`f8da2c9`](https://github.com/PyMoX-fr/GC7/commit/f8da2c9a2184955147e3d5ff0857bd55ad6cca88))
+
+- Net ([`202ed3b`](https://github.com/PyMoX-fr/GC7/commit/202ed3b18373b25770fb6e96473cbea630f67a76))
+
+- Reset version
+  ([`ba4f203`](https://github.com/PyMoX-fr/GC7/commit/ba4f2037a567aad7053a40b5d8fe4396e0da8f3e))
+
+
 ## v1.2.11 (2026-02-22)
 
 
