@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.6 (2026-02-22)
+
+### Bug Fixes
+
+- Up wkf
+  ([`7c3ef4a`](https://github.com/PyMoX-fr/GC7/commit/7c3ef4a96263f0fcaab34a1fadd11f8f68d0c6b5))
+
+
 ## v1.2.5 (2026-02-22)
 
 ### Bug Fixes
