@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.3.0 (2026-02-22)
+
+### Features
+
+- Minor
+  ([`87fd766`](https://github.com/PyMoX-fr/GC7/commit/87fd766f95e5e84243a5b7da15856337e3a7498c))
+
+
 ## v1.2.18 (2026-02-22)
 
 
