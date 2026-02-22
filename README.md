@@ -2,7 +2,7 @@
 
 Push / Pypi uniquement si new version, même patch...
 
-Patch # 11 even with corr
+Patch # 12 even with corr
 
 Trousse à outils utiles pour devs en PyMoX
 
