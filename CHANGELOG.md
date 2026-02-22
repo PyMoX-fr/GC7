@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.15 (2026-02-22)
+
+### Bug Fixes
+
+- Try bold in desc
+  ([`fa26ca7`](https://github.com/PyMoX-fr/GC7/commit/fa26ca732e34414cf6022c20a8afd8bca3dae566))
+
+
 ## v1.2.14 (2026-02-22)
 
 
