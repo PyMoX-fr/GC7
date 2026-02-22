@@ -2,7 +2,7 @@
 
 Push / Pypi uniquement si new version, même patch...
 
-Patch # 1.2.12 ????
+Patch # 1.2.12 ou 13 ???
 
 Trousse à outils utiles pour devs en PyMoX
 
