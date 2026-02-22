@@ -1,5 +1,9 @@
+from importlib.metadata import version
+
+
 def hello():
-    return f"Salut les gens !"
+    v = version("pymox-tools")
+    return f"Salut les gens from Pymox-tools {v} !"
 
 
 def bye():
