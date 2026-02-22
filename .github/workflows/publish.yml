@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - main
+    # tags:
+    #   - 'v*' # Pour ne publier PyPI que les tag numérotés faits à la main
 
 jobs:
-  release:
+  build-and-publish:
+    name: Run semantic-release
     runs-on: ubuntu-latest
 
     steps:
@@ -24,31 +27,38 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-semantic-release setuptools_scm build twine
+          pip install python-semantic-release build twine setuptools_scm
 
-      - name: Debug tokens
+      - name: Debug token
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
         run: |
           echo "GH_TOKEN length: ${#GH_TOKEN}"
-          echo "PYPI_TOKEN length: ${#PYPI_TOKEN}"
 
-      - name: Run semantic-release
-        id: semrel
+      - name: Run semantic-release --config pyproject.toml
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
-        run: semantic-release publish || echo "no_release"
-
-      - name: Upload to PyPI (only if release happened)
-        if: steps.semrel.outcome == 'success'
-        env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
-          if [ -d "dist" ]; then
-            twine upload dist/*
-          else
-            echo "No dist folder → no upload"
-          fi
+          # semantic-release version
+          semantic-release publish --config pyproject.toml
+
+      # - name: Re-checkout after tagging
+      #   run: |
+      #     git fetch --tags
+      #     git checkout $(git describe --tags --abbrev=0)
+
+      # - name: Clean dist folder
+      #   run: rm -rf dist/
+
+      # - name: Build the package
+      #   # env:
+      #   #   SETUPTOOLS_SCM_PRETEND_VERSION: ${{ steps.get_tag.outputs.tag }}
+      #   run: python -m build
+
+      # - name: Publish to PyPI
+      #   # if: success()  # ou if: steps.semantic-release.outcome == 'success'
+      #   env:
+      #     TWINE_USERNAME: __token__
+      #     TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      #   run: twine upload dist/*
