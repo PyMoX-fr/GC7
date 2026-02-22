@@ -2,7 +2,7 @@
 
 Push / Pypi uniquement si new version, même patch...
 
-Patch # Je veux: 1.2.13 !
+Patch # Je veux: 1.2.16 !
 
 Trousse à outils utiles pour devs en PyMoX
 
