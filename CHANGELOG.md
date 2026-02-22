@@ -2,6 +2,20 @@
 
 <!-- version list -->
 
+## v1.2.4 (2026-02-22)
+
+### Bug Fixes
+
+- Corr 4
+  ([`f1cc6dd`](https://github.com/PyMoX-fr/GC7/commit/f1cc6dd54081fcf1d7487e5a74a9d9337ac1564e))
+
+- Corr wkf
+  ([`30300ad`](https://github.com/PyMoX-fr/GC7/commit/30300ad371575f4aba697814acf70bd5e1b98acb))
+
+- Dorr 3
+  ([`624cc93`](https://github.com/PyMoX-fr/GC7/commit/624cc93e7611be3c20d9291461750f759230882d))
+
+
 ## v1.2.3 (2026-02-22)
 
 ### Bug Fixes
