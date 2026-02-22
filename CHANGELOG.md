@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.5 (2026-02-22)
+
+### Bug Fixes
+
+- Simple push
+  ([`2ae2c28`](https://github.com/PyMoX-fr/GC7/commit/2ae2c287a4cbe6137a5a3987f7cf20716a4aabca))
+
+
 ## v1.2.4 (2026-02-22)
 
 ### Bug Fixes
