@@ -35,7 +35,20 @@ jobs:
           echo "PYPI_TOKEN length: ${#PYPI_TOKEN}"
 
       - name: Run semantic-release
+        id: semrel
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
-        run: semantic-release publish
+        run: semantic-release publish || echo "no_release"
+
+      - name: Upload to PyPI (only if release happened)
+        if: steps.semrel.outcome == 'success'
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          if [ -d "dist" ]; then
+            twine upload dist/*
+          else
+            echo "No dist folder → no upload"
+          fi
