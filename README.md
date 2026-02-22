@@ -2,6 +2,8 @@
 
 Push / Pypi uniquement si new version, même patch...
 
+Patch # 8
+
 Trousse à outils utiles pour devs en PyMoX
 
 ---

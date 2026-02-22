@@ -30,7 +30,7 @@ jobs:
 
       - name: Debug token
         run: |
-          echo "GH_TOKEN length: ${#GH_TOKEN}"
+          echo "GH_TOKEN length: ${{ secrets.GH_TOKEN }}"
 
       - name: Run semantic-release
         env:
