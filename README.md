@@ -6,6 +6,10 @@ Trousse à outils utiles pour devs en PyMoX
 
 ---
 
+try minor
+
+---
+
 ## Rapide mémo (Cf. GH)
 
 ### Bases VE (Virtual Env)
