@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.2 (2026-02-22)
+
+### Bug Fixes
+
+- Nett
+  ([`c60008d`](https://github.com/PyMoX-fr/GC7/commit/c60008dabc4f5a9f51d706580e85a0b8dcc2fe02))
+
+
 ## v1.1.1 (2026-02-22)
 
 ### Bug Fixes
