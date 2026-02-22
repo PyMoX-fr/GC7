@@ -2,6 +2,13 @@
 
 <!-- version list -->
 
+## v1.1.4 (2026-02-22)
+
+### Bug Fixes
+
+- Env ([`ef9160c`](https://github.com/PyMoX-fr/GC7/commit/ef9160ccd945a3d6ec5eae0d3cce316dc97f460e))
+
+
 ## v1.1.3 (2026-02-22)
 
 ### Bug Fixes
