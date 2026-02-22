@@ -6,6 +6,8 @@ Trousse à outils utiles pour devs en PyMoX
 
 ## Rapide mémo (Cf. GH)
 
+### Bases VE (Virtual Env)
+
 ```bash
 py -m venv .venv
 .\.venv\Scripts\activate
