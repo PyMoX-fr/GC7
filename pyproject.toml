@@ -32,6 +32,7 @@ version_variable = "src/pymox_tools1/__init__.py:__version__"
 repository = "https://github.com/PyMoX-fr/GC7"
 hvcs = "github"
 github_token = "env:GH_TOKEN"
+gh_token = "env:GH_TOKEN"
 
 pypi_token = "env:PYPI_TOKEN"
 version_source = "tag"
