@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v2.3.0 (2026-02-22)
+
+### Features
+
+- Up init
+  ([`5d08131`](https://github.com/PyMoX-fr/GC7/commit/5d0813160991fc76cabd4da8739074ae8da0c0f5))
+
+
 ## v2.2.0 (2026-02-22)
 
 
