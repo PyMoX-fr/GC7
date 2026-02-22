@@ -2,6 +2,13 @@
 
 <!-- version list -->
 
+## v1.2.0 (2026-02-22)
+
+### Features
+
+- Doc ([`e387fa2`](https://github.com/PyMoX-fr/GC7/commit/e387fa2f4972b8f41a2d0da6817492e4c171e4de))
+
+
 ## v1.1.4 (2026-02-22)
 
 ### Bug Fixes
