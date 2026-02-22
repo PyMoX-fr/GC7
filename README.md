@@ -2,8 +2,6 @@
 
 Trousse à outils utiles pour devs en PyMoX
 
-v1.06 2ème
-
 ---
 
 ## Rapide mémo
