@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v3.0.1 (2026-02-22)
+
+### Bug Fixes
+
+- From base
+  ([`1ce9efa`](https://github.com/PyMoX-fr/GC7/commit/1ce9efad5d87b4aec5b48f0c7452c125c4092546))
+
+
 ## v3.0.0 (2026-02-22)
 
 ### Features
