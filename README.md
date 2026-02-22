@@ -12,9 +12,11 @@ Trousse à outils utiles pour devs en PyMoX
 py -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 ### Build
 
+```bash
 py -m build
 twine check dist/*
 twine upload dist/* --verbose
