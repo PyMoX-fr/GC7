@@ -13,6 +13,8 @@ py -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 
+### Build
+
 py -m build
 twine check dist/*
 twine upload dist/* --verbose
