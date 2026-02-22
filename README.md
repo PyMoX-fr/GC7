@@ -1,5 +1,7 @@
 # PyMoX-Tools (Public)
 
+❌ Nett requirements
+
 Push / Pypi uniquement si new version, même patch...
 
 Trousse à outils utiles pour devs en PyMoX
