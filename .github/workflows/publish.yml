@@ -29,33 +29,35 @@ jobs:
           pip install python-semantic-release build twine setuptools_scm
 
       - name: Debug token
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          echo "GH_TOKEN lengthy: ${{ secrets.GH_TOKEN }}"
+          echo "GH_TOKEN length: ${#GH_TOKEN}"
 
       - name: Run semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
         run: |
-          semantic-release version
+          # semantic-release version
           semantic-release publish
 
-      - name: Re-checkout after tagging
-        run: |
-          git fetch --tags
-          git checkout $(git describe --tags --abbrev=0)
+      # - name: Re-checkout after tagging
+      #   run: |
+      #     git fetch --tags
+      #     git checkout $(git describe --tags --abbrev=0)
 
-      - name: Clean dist folder
-        run: rm -rf dist/
+      # - name: Clean dist folder
+      #   run: rm -rf dist/
 
-      - name: Build the package
-        # env:
-        #   SETUPTOOLS_SCM_PRETEND_VERSION: ${{ steps.get_tag.outputs.tag }}
-        run: python -m build
+      # - name: Build the package
+      #   # env:
+      #   #   SETUPTOOLS_SCM_PRETEND_VERSION: ${{ steps.get_tag.outputs.tag }}
+      #   run: python -m build
 
-      - name: Publish to PyPI
-        # if: success()  # ou if: steps.semantic-release.outcome == 'success'
-        env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-        run: twine upload dist/*
+      # - name: Publish to PyPI
+      #   # if: success()  # ou if: steps.semantic-release.outcome == 'success'
+      #   env:
+      #     TWINE_USERNAME: __token__
+      #     TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      #   run: twine upload dist/*
