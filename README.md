@@ -1,5 +1,7 @@
 # PyMoX-Tools (Public)
 
+→ Simple push / Pypi
+
 Trousse à outils utiles pour devs en PyMoX
 
 ---
