@@ -4,7 +4,7 @@ Trousse à outils utiles pour devs en PyMoX
 
 ---
 
-## Rapide mémo ( Cf. GH)
+## Rapide mémo (Cf. GH)
 
 ```bash
 py -m venv .venv
