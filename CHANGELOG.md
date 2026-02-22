@@ -2,6 +2,20 @@
 
 <!-- version list -->
 
+## v1.2.3 (2026-02-22)
+
+### Bug Fixes
+
+- Change tree
+  ([`73f32e9`](https://github.com/PyMoX-fr/GC7/commit/73f32e913a11ed04717505641e99967ca2cf0ff4))
+
+- Corr
+  ([`c2e4773`](https://github.com/PyMoX-fr/GC7/commit/c2e4773322928f6e1687f631ac6d49670a13ffa7))
+
+- Corr2
+  ([`6d5a2b8`](https://github.com/PyMoX-fr/GC7/commit/6d5a2b855c6dac8179e53e3a27b5e6c81cd0640d))
+
+
 ## v1.2.2 (2026-02-22)
 
 
