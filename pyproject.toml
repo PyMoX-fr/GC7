@@ -59,7 +59,7 @@ upload_to_pypi = true       # active la publication sur PyPI
 
 [tool.setuptools]
 package-dir = { "" = "src" }
-packages = ["pymox_tools1"]           # dossier Python
+packages = ["pymox_tools"]           # dossier Python
 
 [tool.setuptools.package-data]
 "*" = ["*.txt", "*.json"] # si tu as des fichiers à inclure
