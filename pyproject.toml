@@ -3,7 +3,7 @@ name = "pymox_tools"
 dynamic = ["version"]
 # version = "v0.1.2"  # sera géré automatiquement par semantic-release
 # version = "0.0.6"  # valeur placeholder, ignorée par semantic-release
-description = "Un module avec plein d'outils utiles pour devs en **PyMoX** (PY-thon - Mo-jo - flet-X)"
+description = "Un module avec plein d'outils utiles pour devs en <b>PyMoX</b> (Py←thon - Mo←jo - flet→X)"
 authors = [{ name = "GrCOTE7", email = "GrCOTE7@gmail.com" }]
 # readme = {file = "README.md", encoding = "utf-8"}
 readme = "README.md"
