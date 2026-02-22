@@ -2,6 +2,13 @@
 
 <!-- version list -->
 
+## v1.2.7 (2026-02-22)
+
+### Bug Fixes
+
+- Up ([`7ce7669`](https://github.com/PyMoX-fr/GC7/commit/7ce7669308f80460b658e76a088c8032b6c6c73e))
+
+
 ## v1.2.6 (2026-02-22)
 
 ### Bug Fixes
