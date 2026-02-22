@@ -40,10 +40,10 @@ jobs:
           semantic-release version
           semantic-release publish
 
-      # - name: Re-checkout after tagging
-      #   run: |
-      #     git fetch --tags
-      #     git checkout $(git describe --tags --abbrev=0)
+      - name: Re-checkout after tagging
+        run: |
+          git fetch --tags
+          git checkout $(git describe --tags --abbrev=0)
 
       # - name: Clean dist folder
       #   run: rm -rf dist/
