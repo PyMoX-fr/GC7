@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v3.0.5 (2026-02-23)
+
+### Bug Fixes
+
+- New tk3
+  ([`03d43b2`](https://github.com/PyMoX-fr/GC7/commit/03d43b24b84db49aba78cfb44cc095c76728fd58))
+
+
 ## v3.0.4 (2026-02-23)
 
 ### Bug Fixes
