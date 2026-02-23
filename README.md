@@ -2,7 +2,7 @@
 
 ❌ Nett requirements 777
 
-Vérif avec new gh tk
+Vérif avec new gh tk 2
 
 Trousse à outils utiles pour devs en PyMoX
 
