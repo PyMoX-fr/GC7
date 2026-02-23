@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v3.0.2 (2026-02-23)
+
+### Bug Fixes
+
+- New try
+  ([`27ffad6`](https://github.com/PyMoX-fr/GC7/commit/27ffad6ffa6bca40e368da187fb94fd8d5ed6380))
+
+
 ## v3.0.1 (2026-02-22)
 
 ### Bug Fixes
