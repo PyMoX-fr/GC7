@@ -2,7 +2,7 @@
 
 ❌ Nett requirements 777
 
-Push / Pypi uniquement si new version, même patch...
+Vérif
 
 Trousse à outils utiles pour devs en PyMoX
 
