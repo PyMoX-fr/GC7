@@ -1,6 +1,6 @@
 # PyMoX-Tools (Public)
 
-❌ Nett requirements 777
+❌ Nett requirements
 
 Vérif avec new gh tk 3
 
