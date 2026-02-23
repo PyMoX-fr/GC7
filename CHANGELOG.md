@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v3.0.4 (2026-02-23)
+
+### Bug Fixes
+
+- New tk2
+  ([`64cde6a`](https://github.com/PyMoX-fr/GC7/commit/64cde6a9a0f607ebc12cfdbde02cabefb6cc3d0d))
+
+
 ## v3.0.3 (2026-02-23)
 
 ### Bug Fixes
